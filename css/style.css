@@ -1,6 +1,7 @@
 header{
   background-color: grey;
   padding: 10px;
+  display: flex;
 }
 
 body{
