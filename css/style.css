@@ -11,4 +11,5 @@ body{
 
 .flex-box{
   display: flex;
+  align: left;
 }
