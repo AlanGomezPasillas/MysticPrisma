@@ -1,13 +1,10 @@
-.header{
+header{
   background-color: grey;
+  padding: 10px;
 }
 
 body{
   padding: 10px;
   background-color: black;
   color: white;
-}
-
-div{
-  padding: 10px;
 }
