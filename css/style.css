@@ -12,4 +12,5 @@ body{
 .logo{
   display: inline;
   background-color: DodgerBlue;
+  width: 600px;
 }
