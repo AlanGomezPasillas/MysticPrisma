@@ -10,7 +10,7 @@ body{
 }
 
 .flex-box{
-  display: flex;
+  display: inline;
   background-color: DodgerBlue;
   align: left;
 }
