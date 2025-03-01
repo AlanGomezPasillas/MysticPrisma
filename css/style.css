@@ -1,6 +1,7 @@
 header{
   background-color: grey;
   padding: 4px;
+  display: inline;
 }
 
 body{
