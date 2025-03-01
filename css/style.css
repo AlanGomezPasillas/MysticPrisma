@@ -1,7 +1,6 @@
 header{
   background-color: grey;
   padding: 4px;
-  display: inline;
 }
 
 body{
@@ -10,8 +9,7 @@ body{
   color: white;
 }
 
-.logo{
-  display: inline;
+.flex-box{
+  display: flex;
   background-color: DodgerBlue;
-  width: 600px;
 }
