@@ -1,21 +1,29 @@
-body{
+body {
   padding: 10px;
   background-color: black;
   color: white;
 }
 
-header{
-  background-color: grey;
-  padding: 4px;
+h1 {
+  font-size: 50;
+  margin-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 10px;
 }
 
-.flex-box{
+header {
+  background-color: grey;
+  padding:10px;
+}
+
+.flex-box {
   display: inline-flex;
   background-color: DodgerBlue;
 }
 
 .flex-box > div {
   background-color: grey;
-  margin-top: 8px;
-  margin-bottom: 5;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10;
 }
