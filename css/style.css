@@ -1,20 +1,21 @@
-header{
-  background-color: grey;
-  padding: 4px;
-}
-
 body{
   padding: 10px;
   background-color: black;
   color: white;
 }
 
+header{
+  background-color: grey;
+  padding: 4px;
+}
+
 .flex-box{
-  display: flex;
+  display: inline-flex;
   background-color: DodgerBlue;
 }
 
 .flex-box > div {
-  margin: 10px;
-  padding: 10px;
+  background-color: grey;
+  margin: 5px;
+  padding: 5px;
 }
