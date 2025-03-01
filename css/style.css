@@ -16,6 +16,6 @@ header{
 
 .flex-box > div {
   background-color: grey;
-  margin: 5px;
-  padding: 5px;
+  margin-top: 8px;
+  margin-bottom: 5;
 }
