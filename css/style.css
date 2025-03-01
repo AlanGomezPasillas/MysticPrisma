@@ -9,13 +9,7 @@ body{
   color: white;
 }
 
-.flex-box{
+.logo{
   display: inline;
   background-color: DodgerBlue;
-  align: left;
-}
-
-.flex-box > div{
-  margin: 10px;
-  padding: 10px;
 }
