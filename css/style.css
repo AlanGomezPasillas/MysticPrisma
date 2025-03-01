@@ -12,6 +12,7 @@ body{
 .flex-box{
   display: flex;
   background-color: DodgerBlue;
+  align: left;
 }
 
 .flex-box > div{
