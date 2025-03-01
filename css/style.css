@@ -10,6 +10,11 @@ body{
 }
 
 .flex-box{
-  display: inline-block;
-  align: left;
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-box > div{
+  margin: 10px;
+  padding: 10px;
 }
