@@ -1,6 +1,7 @@
 body {
   padding: 10px;
   background-color: black;
+  background-image: url("img/back.png");
   color: white;
 }
 
@@ -16,7 +17,7 @@ h2 {
 }
 
 header {
-  background-color: grey;
+  background-color: black;
   padding:10px;
 }
 
@@ -26,11 +27,16 @@ nav {
   margin-top: 10px;
 }
 
-nav > a{
+nav > a {
   color: white;
   padding: 2px 25px 2px 25px;
   background-color: black;
   border: 2px solid
+}
+
+section {
+  background-color: blue;
+  
 }
 
 .flex-box {
@@ -43,4 +49,4 @@ nav > a{
 .flex-box > div {
   margin-left: 5px;
   margin-top: 10px;
-  ma
+}
