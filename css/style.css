@@ -42,14 +42,15 @@ nav {
   margin-bottom 2px;
 }
 
-nav > a {
+nav > button {
   display: inline-flex;
   color: white;
   margin-top: 4px;
-  padding: 2px 25px 2px 25px;
+  margin-bottom: 2px;
+  margin-left: 2px;
   background-color: black;
   border: 2px solid;
-  width: 48px;
+  width: 99px;
   justify-content: center;
 }
 
