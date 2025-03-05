@@ -60,12 +60,6 @@ section {
   border-radius: 10px;
 }
 
-#alan {
-  float: left;
-  margin-right: 10px;
-  padding-top: 2px;
-}
-
 .flex-box {
   display: inline-flex;
   background-color: black;
@@ -86,4 +80,18 @@ section {
   margin-left: 16px;
   margin-right: 14px;
   margin-top: 16px;
+}
+
+#alan {
+  float: left;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+
+#home {
+  display: block;
+}
+
+#about {
+  display: block;
 }
