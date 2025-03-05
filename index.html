@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="js/script.js"></script>
     <link rel="icon" href="img/MysticPrisma.svg"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
@@ -9,7 +10,7 @@
     <meta name="description" content="Computer Art Production">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Alan Gómez Pasillas">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
   <header>
@@ -17,15 +18,15 @@
       <div> <img src="img/MysticPrisma.svg" width="64" height="64"> </div>
       <h1> Mystic Prisma </h1>
     </div>
-    <a  target="_blank" href="https://github.com/AlanGomezPasillas/"><img class="follow" src="img/github-mark.svg" width=64 height=64/></a>
-    <a  target="_blank" href="https://www.youtube.com/channel/UCaajwyIOSvra7luFjL2SCQw"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/YouTube_social_red_circle_%282017%29.svg" width=64 height=64/></a>
-    <a  target="_blank" href="https://www.facebook.com/MysticPrismaGames/"><img class="follow" src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" width=64 height=64/></a>
-    <a  target="_blank" href="https://mx.linkedin.com/in/alan-gomez-pasillas/es"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg" width=64 height=64/></a>
+    <a target="_blank" href="https://github.com/AlanGomezPasillas/"><img class="follow" src="img/github-mark.svg" width=64 height=64/></a>
+    <a target="_blank" href="https://www.youtube.com/channel/UCaajwyIOSvra7luFjL2SCQw"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/YouTube_social_red_circle_%282017%29.svg" width=64 height=64/></a>
+    <a target="_blank" href="https://www.facebook.com/MysticPrismaGames/"><img class="follow" src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" width=64 height=64/></a>
+    <a target="_blank" href="https://mx.linkedin.com/in/alan-gomez-pasillas/es"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg" width=64 height=64/></a>
     <nav>
-      <a href="/"> Home </a>
-      <a href="/"> News </a>
-      <a href="/"> Videos </a>
-      <a href="/"> Games </a>
+      <button onclick="home()">Home</button> 
+      <button onclick="home()">News</button>
+      <button onclick="home()">Videos</button>
+      <button onclick="home()">Games</button>
     </nav>
   </header>
   <body>
@@ -38,7 +39,7 @@
         you'll find something you like, have fun!
       </p>
     </section>
-    <section id="About">
+    <section id="about">
       <h2> About us </h2>
       <p>
         <img id="alan" src="img/Alan.png" width=84 height=88>
@@ -79,7 +80,7 @@
         Alan el regreso is still not finished but
         it is a platformer that involves fights and
         a very interesting story.
-        
+        <br><br>
         Amigo Programador is one of our most liked projects, 
         its purpose is to provide quality learning to people
         that is studying programming and for things that are
