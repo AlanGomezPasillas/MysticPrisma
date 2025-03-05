@@ -1,7 +1,12 @@
+* {
+  background-color: black;
+}
+
 body {
   padding: 10px;
   background-color: black;
   background-image: linear-gradient(white, black); 
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -53,6 +58,12 @@ section {
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
+}
+
+#alan {
+  float: left;
+  margin-right: 10px;
+  padding-top: 2px;
 }
 
 .flex-box {
