@@ -42,16 +42,22 @@ nav {
   margin-bottom 2px;
 }
 
-nav > button {
+button {
   display: inline-flex;
   color: white;
   margin-top: 4px;
   margin-bottom: 2px;
-  margin-left: 1px;
+  margin-left: 2px;
   background-color: black;
-  border: 2px solid;
+  border: 2px solid white;
   width: 100px;
   justify-content: center;
+  transition-duration: 0.2s;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
 }
 
 section {
@@ -83,6 +89,15 @@ section {
   margin-top: 16px;
 }
 
+.game-img {
+  margin-left: 4px;
+  margin-right: 8px;
+  width: 168px;
+  height: 168px;
+  float: left;
+  border-radius: 10px;
+}
+
 #about {
   display: block;
 }
@@ -106,5 +121,9 @@ section {
 }
 
 #games {
+  display: none;
+}
+
+#game1 {
   display: none;
 }
