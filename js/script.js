@@ -1,4 +1,4 @@
-function changeSection(let sec){
+function changeSection(sec){
   if(sec=="home"){
     document.getElementById('home').style.display='block';
     document.getElementById('about').style.display='block';
