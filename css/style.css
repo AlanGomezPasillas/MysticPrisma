@@ -47,7 +47,7 @@ nav > button {
   color: white;
   margin-top: 4px;
   margin-bottom: 2px;
-  margin-left: 2px;
+  margin-left: 1px;
   background-color: black;
   border: 2px solid;
   width: 100px;
@@ -83,6 +83,10 @@ section {
   margin-top: 16px;
 }
 
+#about {
+  display: block;
+}
+
 #alan {
   float: left;
   margin-right: 10px;
@@ -93,6 +97,14 @@ section {
   display: block;
 }
 
-#about {
-  display: block;
+#music {
+  display: none;
+}
+
+#videos {
+  display: none;
+}
+
+#games {
+  display: none;
 }
