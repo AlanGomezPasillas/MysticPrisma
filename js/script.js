@@ -1,3 +1,24 @@
-function home(){
-  document.getElementById('about').style.display='none';
+function changeSection(let sec){
+  if(sec=="home"){
+    document.getElementById('home').style.display='block';
+    document.getElementById('about').style.display='block';
+  }else{
+    document.getElementById('home').style.display='none';
+    document.getElementById('about').style.display='none';
+  }
+  if(sec=="music"){
+    document.getElementById('music').style.display='block';
+  }else{
+    document.getElementById('music').style.display='none';
+  }
+  if(sec=="videos"){
+    document.getElementById('videos').style.display='block';
+  }else{
+    document.getElementById('videos').style.display='none';
+  }
+  if(sec=="games"){
+    document.getElementById('games').style.display='block';
+  }else{
+    document.getElementById('games').style.display='none';
+  }
 }
