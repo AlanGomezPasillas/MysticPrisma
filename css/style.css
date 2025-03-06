@@ -92,8 +92,9 @@ section {
 .game-img {
   margin-left: 4px;
   margin-right: 8px;
-  width: 168px;
-  height: 168px;
+  margin-bottom: 16px;
+  width: 124px;
+  height: 124px;
   float: left;
   border-radius: 10px;
 }
