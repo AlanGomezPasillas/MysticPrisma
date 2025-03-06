@@ -15,23 +15,24 @@
   
   <header>
     <div class="flex-box">
-      <div> <img src="img/MysticPrisma.svg" width="64" height="64"> </div>
-      <h1> Mystic Prisma </h1>
+      <div><img src="img/MysticPrisma.svg" width="64" height="64"></div>
+      <h1>Mystic Prisma</h1>
     </div>
     <a target="_blank" href="https://github.com/AlanGomezPasillas/"><img class="follow" src="img/github-mark.svg" width=64 height=64/></a>
     <a target="_blank" href="https://www.youtube.com/channel/UCaajwyIOSvra7luFjL2SCQw"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/YouTube_social_red_circle_%282017%29.svg" width=64 height=64/></a>
     <a target="_blank" href="https://www.facebook.com/MysticPrismaGames/"><img class="follow" src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" width=64 height=64/></a>
     <a target="_blank" href="https://mx.linkedin.com/in/alan-gomez-pasillas/es"><img class="follow" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg" width=64 height=64/></a>
     <nav>
-      <button type="button" onclick="home()">Home</button> 
-      <button type="button" onclick="home()">News</button>
-      <button type="button" onclick="home()">Videos</button>
-      <button type="button" onclick="home()">Games</button>
+      <button type="button" onclick="changeSection("home")">Home</button> 
+      <button type="button" onclick="changeSection("music")">Music</button>
+      <button type="button" onclick="changeSection("videos")">Videos</button>
+      <button type="button" onclick="changeSection("games")">Games</button>
     </nav>
   </header>
   <body>
-    <section id="Home">
-      <h2> Home </h2>
+    <!-- home -->
+    <section id="home">
+      <h2>Home</h2>
       <p>
         Hi, Welcome to Mystic Prisma, this is a company 
         made by Alan Gómez Pasillas, here we make games,
@@ -89,6 +90,34 @@
         but it is still difficult and sometimes to understand
         as well, that is the main purpose, share valuable knowledge
         with the world.
+      </p>
+    </section>
+    <!-- news -->
+    <section id="music">
+      <h2>Music</h2>
+      <p>
+        Mystic Prisma has composed music for videogames but
+        we have also made a rock band! Its name is Los Alancinos
+        it has 4 people in it and all of them are Alans, it is
+        Wade, Brate, Tob and Zop, they sing and play the guitar,
+        drums, piano and bass.
+      </p>
+    </section>
+    <!-- videos -->
+    <section id="videos">
+      <h2>Videos</h2>
+      <p>
+        Right now, we handle 2 Youtube channels:
+      </p>
+      <h3>Mystic Prisma Games</h3>
+      <h3>Amigo Programador</h3>
+    </section>
+    <!-- games -->
+    <section id="games">
+      <h2>Games</h2>
+      <p>
+        There are a lot of videogames we have made, here
+        you will be able to play or download some of them.
       </p>
     </section>
   </body>
